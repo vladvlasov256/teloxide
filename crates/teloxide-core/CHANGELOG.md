@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## unreleased
 
+### Fixed
+
+- In cases when `teloxide` can't deserialize an update, error now includes the full json value ([#826][pr826])
+
+[pr826]: https://github.com/teloxide/teloxide/pull/826
+
 ## 0.9.0 - 2023-01-17
 
 ### Changed
