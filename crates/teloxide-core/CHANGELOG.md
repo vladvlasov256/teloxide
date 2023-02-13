@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## unreleased
 
+### Changed
+
+- Types of `Option<bool>` fields of `KeyboardMarkup`, `KeyboardRemove` and `ForceReply` to `bool` ([#853][pr853])
+
+[pr852]: https://github.com/teloxide/teloxide/pull/853
+
 ### Fixed 
 
 - `Update::user` now handles channel posts, chat member changes and chat join request updates correctly ([#835][pr835])
